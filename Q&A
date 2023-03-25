@@ -1,0 +1,23 @@
+- What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
+Model serving methods are typically used to deploy machine learning models as web services, allowing other software systems to consume the predictions made by the model. Some of the other advantages are,
+Scalability: Model serving methods are designed to handle large amounts of traffic, making it easy to scale up the deployment as needed.
+Customization: With model serving methods, you have greater control over how the model is deployed and how it interacts with other software systems.
+Integration: Model serving methods can be integrated with other software systems, such as data pipelines, databases, and other services, making it easier to build end-to-end machine learning applications.
+
+
+- What is ML model deployment?
+Machine learning (ML) model deployment is the process of making a trained ML model available to other software systems for consumption. Deploying an ML model involves taking the trained model and integrating it into a larger software system or application so that it can make predictions on new data. This can involve creating a web service, API endpoint, or other mechanism to allow other software systems to send input data to the model and receive its predictions.
+
+
+- What is Causal Inference and How Does It Work?
+Causal inference is a field of study in statistics and data science that aims to understand cause-and-effect relationships between variables, rather than just correlations. In other words, causal inference seeks to determine whether a certain variable or intervention causes a particular outcome, and to what extent.
+Causal inference can be done using various methods, including randomized controlled trials (RCTs), natural experiments, and observational studies with statistical adjustments. The goal of these methods is to identify a causal relationship between two variables by controlling for other factors that may influence the outcome.
+
+
+- What is serverless deployment and how its compared with deployment on server?
+Serverless deployment is a method of deploying applications or services where the infrastructure management is handled by the cloud provider, rather than the user. In serverless deployment, the user does not have to manage servers, virtual machines, or operating systems. Instead, they can focus on writing and deploying code in the form of functions or microservices, which are executed by the cloud provider.
+
+In comparison to deployment on a server, serverless deployment offers several benefits:
+Scalability: Serverless deployment can automatically scale up or down based on the demand for the application or service.
+Reduced operational overhead: With serverless deployment, the cloud provider handles the underlying infrastructure, including scaling, patching, and monitoring.
+Lower cost: Serverless deployment can be more cost-effective than deploying on a server, as users only pay for the resources used by their application.
